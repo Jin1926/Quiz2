@@ -19,7 +19,7 @@ import java.util.List;
 
 public class Newsdaptador extends RecyclerView.Adapter<Newsdaptador.ViewHolder> {
     private List<News> datos;
-    public Newsdaptador(List<News> listNoticias) {
+    public Newsdaptador(List<News> datos) {
         this.datos = datos;
     }
 
